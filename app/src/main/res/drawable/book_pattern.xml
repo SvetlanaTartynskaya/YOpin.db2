@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <path
+        android:fillColor="@color/primary_light"
+        android:fillAlpha="0.05"
+        android:pathData="M9,12L27,12L27,96L9,96Z" />
+    
+    <path
+        android:fillColor="@color/primary"
+        android:fillAlpha="0.07"
+        android:pathData="M30,12L42,12L42,96L30,96Z" />
+    
+    <path
+        android:fillColor="@color/accent"
+        android:fillAlpha="0.05"
+        android:pathData="M45,12L65,12L65,96L45,96Z" />
+    
+    <path
+        android:fillColor="@color/primary_dark"
+        android:fillAlpha="0.08"
+        android:pathData="M68,12L78,12L78,96L68,96Z" />
+    
+    <path
+        android:fillColor="@color/accent_light"
+        android:fillAlpha="0.06"
+        android:pathData="M81,12L99,12L99,96L81,96Z" />
+    
+    <!-- Декоративные элементы на корешках книг -->
+    <path
+        android:fillColor="@color/accent_dark"
+        android:fillAlpha="0.1"
+        android:pathData="M15,20L21,20L21,24L15,24Z" />
+    
+    <path
+        android:fillColor="@color/primary"
+        android:fillAlpha="0.1"
+        android:pathData="M50,30L60,30L60,34L50,34Z" />
+    
+    <path
+        android:fillColor="@color/accent"
+        android:fillAlpha="0.1"
+        android:pathData="M85,40L95,40L95,44L85,44Z" />
+    
+    <path
+        android:fillColor="@color/primary_light"
+        android:fillAlpha="0.1"
+        android:pathData="M35,50L39,50L39,54L35,54Z" />
+    
+    <path
+        android:fillColor="@color/accent_light"
+        android:fillAlpha="0.1"
+        android:pathData="M70,60L76,60L76,64L70,64Z" />
+</vector> 

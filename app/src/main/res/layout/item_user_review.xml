@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:strokeColor="@color/dark_green"
+    app:strokeWidth="1dp"
+    app:cardBackgroundColor="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:id="@+id/tvBookInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/primary_dark"
+            android:textSize="22sp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:layout_marginBottom="10dp"
+            tools:text="Название книги - Автор"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/rating_background"
+            android:padding="8dp">
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/RatingBarSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:numStars="5"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/tvReviewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/text_secondary"
+                android:textSize="16sp"
+                android:fontFamily="@font/merriweather_italic"
+                tools:text="01.01.2023"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/decorative_divider"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvReviewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:lineSpacingExtra="6dp"
+            android:fontFamily="@font/merriweather"
+            android:background="@drawable/text_background"
+            android:padding="10dp"
+            tools:text="Текст отзыва, который описывает впечатления читателя о книге."/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Фон круга -->
+    <path
+        android:pathData="M60,60m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0"
+        android:fillColor="#E8F1F2"/>
+    
+    <!-- Силуэт головы -->
+    <path
+        android:pathData="M60,60m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"
+        android:fillColor="#95A5A6"/>
+    
+    <!-- Плечи -->
+    <path
+        android:pathData="M60,84C39.01,84 22,101.01 22,122L98,122C98,101.01 80.99,84 60,84Z"
+        android:fillColor="#95A5A6"/>
+</vector> 

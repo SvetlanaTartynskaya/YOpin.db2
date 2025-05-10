@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема приложения -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Основные цвета -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        
+        <!-- Цвета фона -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        
+        <!-- Текстовые цвета -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Настройки окна -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+        
+        <!-- Шрифт по умолчанию для всего приложения -->
+        <item name="android:fontFamily">@font/merriweather</item>
+        <item name="fontFamily">@font/merriweather</item>
+    </style>
+    
+    <!-- Стили формы компонентов -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    
+    <!-- Стиль для круглого изображения профиля -->
+    <style name="ShapeAppearance.App.CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    
+    <!-- Стиль кнопок -->
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontFamily">@font/merriweather_bold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+    
+    <!-- Стиль текстовых полей -->
+    <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="counterTextColor">@color/text_secondary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="boxBackgroundColor">@color/surface</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="fontFamily">@font/merriweather</item>
+    </style>
+    
+    <!-- Стиль текстового поля (EditText) -->
+    <style name="AppEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:fontFamily">@font/merriweather</item>
+    </style>
+    
+    <!-- Стиль карточек -->
+    <style name="AppCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="strokeColor">@color/accent_light</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    
+    <!-- Стиль заголовков -->
+    <style name="AppHeading">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/playfair_display_bold</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    
+    <!-- Стиль заголовков в формах -->
+    <style name="HeaderTextStyle">
+        <item name="android:textColor">@color/dark_green</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/playfair_display_bold</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    
+    <!-- Стиль подзаголовков -->
+    <style name="AppSubheading">
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/playfair_display</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    
+    <!-- Стиль обычного текста -->
+    <style name="AppBodyText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">@font/merriweather</item>
+    </style>
+    
+    <!-- Стиль рейтинга (звезд) -->
+    <style name="AppRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlNormal">@color/rating_empty</item>
+        <item name="colorControlActivated">@color/rating_filled</item>
+        <item name="android:progressTint">@color/rating_filled</item>
+        <item name="android:progressBackgroundTint">@color/rating_empty</item>
+    </style>
+    
+    <!-- Стиль маленьких звезд рейтинга для карточки книги -->
+    <style name="BookCardRatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">@color/rating_filled</item>
+        <item name="android:progressBackgroundTint">@color/rating_empty</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+    
+    <!-- Стиль маленьких звезд рейтинга (только для отображения) -->
+    <style name="RatingBarStyle" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/rating_active</item>
+        <item name="android:progressBackgroundTint">@color/rating_empty</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:maxHeight">32dp</item>
+    </style>
+    
+    <!-- Стиль очень маленьких звезд рейтинга для страницы "Мои отзывы" -->
+    <style name="RatingBarSmall" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">@color/rating_active</item>
+        <item name="android:progressBackgroundTint">@color/rating_empty</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+    
+    <!-- Стиль для ActionBar -->
+    <style name="AppToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/text_on_primary</item>
+        <item name="subtitleTextColor">@color/text_on_primary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item>
+    </style>
+    
+    <style name="ToolbarTitleText">
+        <item name="android:fontFamily">@font/playfair_display_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Стиль для кнопок навигации -->
+    <style name="AppNavButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="rippleColor">@color/accent_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/merriweather</item>
+    </style>
+    
+    <!-- Стиль для иконок -->
+    <style name="AppIcon">
+        <item name="android:tint">@color/primary</item>
+    </style>
+    
+    <!-- Стиль рейтинга для добавления отзывов -->
+    <style name="RatingBarInput" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/rating_active</item>
+        <item name="android:progressBackgroundTint">@color/rating_empty</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+        <item name="android:stepSize">1.0</item>
+        <item name="android:rating">0</item>
+    </style>
+    
+    <!-- Стиль для кнопок действий в отзывах -->
+    <style name="ReviewActionButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:minWidth">88dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/playfair_display_bold</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">@color/accent_light</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/accent_light</item>
+    </style>
+</resources> 

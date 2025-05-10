@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1003982425343",
+    "project_id": "yopin-d7aaf",
+    "storage_bucket": "yopin-d7aaf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003982425343:android:8697532e1a92a7492f10ca",
+        "android_client_info": {
+          "package_name": "com.example.yopin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHpPqxJMlH8BLxrEZloWwEtJ9VSxpmViY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

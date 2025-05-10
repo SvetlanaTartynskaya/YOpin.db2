@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основная линия -->
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <size android:height="1.5dp" />
+            <gradient
+                android:startColor="#00D4AF37"
+                android:centerColor="@color/accent_gold"
+                android:endColor="#00D4AF37"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Декоративные точки -->
+    <item android:left="10dp" android:gravity="left|center_vertical">
+        <shape android:shape="oval">
+            <size android:width="3dp" android:height="3dp" />
+            <solid android:color="@color/dark_green" />
+        </shape>
+    </item>
+    
+    <item android:right="10dp" android:gravity="right|center_vertical">
+        <shape android:shape="oval">
+            <size android:width="3dp" android:height="3dp" />
+            <solid android:color="@color/dark_green" />
+        </shape>
+    </item>
+    
+    <!-- Тонкая нижняя линия -->
+    <item android:top="4dp" android:left="20dp" android:right="20dp">
+        <shape android:shape="rectangle">
+            <size android:height="0.5dp" />
+            <solid android:color="@color/accent_leaf" />
+        </shape>
+    </item>
+</layer-list> 

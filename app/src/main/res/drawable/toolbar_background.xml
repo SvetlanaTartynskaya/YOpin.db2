@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основной фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="@color/primary_dark"
+                android:endColor="@color/primary"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Декоративный нижний бордюр -->
+    <item android:bottom="0dp" android:top="-2dp" android:right="-2dp" android:left="-2dp">
+        <shape android:shape="rectangle">
+            <stroke 
+                android:width="2dp" 
+                android:color="@color/accent" />
+        </shape>
+    </item>
+    
+    <!-- Декоративный элемент (перо) в правом верхнем углу -->
+    <item android:gravity="top|right" android:top="4dp" android:right="16dp">
+        <bitmap
+            android:src="@drawable/quill_pen_icon"
+            android:tint="@color/accent_light"
+            android:alpha="0.3"
+            android:gravity="top|right" />
+    </item>
+</layer-list> 

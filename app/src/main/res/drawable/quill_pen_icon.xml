@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Перо писателя (стилизованное) -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M9.9,19.7L11,22h1l0.5,-2.3L9.9,19.7zM14,4.5c0,0 1.5,1.5 0,4c-1.5,2.5 -3,2 -3,2L5,15v1l2.5,1.5L8,21c0,0.5 0.5,1 1,1h2c0.5,0 1,-0.5 1,-1v-0.5c0,-0.5 1,-0.5 1.5,-1c1,-1 2.5,-3 2.5,-4c0,-1 0,-3 -2,-5s-6,-2 -6,-2s2,-1 5,-0.5S14,4.5 14,4.5zM18,1c0,0 -2,2 -2,3s0,2 1,2s3,-3 3,-4S18,1 18,1z" />
+    
+    <!-- Детали пера -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M12.5,5.5c0,0 1,1 -0.5,3S9.5,10 9.5,10l-3,2l0,0.5l2,1.5L9,17.5c0,0.3 0.3,0.5 0.5,0.5h1c0.3,0 0.5,-0.3 0.5,-0.5V17c0,-0.3 0.5,-0.3 0.8,-0.5c0.5,-0.5 1.2,-1.5 1.2,-2c0,-0.5 0,-1.5 -1,-2.5S8.5,10.5 8.5,10.5s1,-0.5 2.5,-0.3s1.5,-2.2 1.5,-4.7z" />
+</vector> 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Merriweather Regular -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/merriweather_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/merriweather_regular" />
+    
+    <!-- Merriweather Bold -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/merriweather_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/merriweather_bold" />
+    
+    <!-- Merriweather Italic -->
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/merriweather_italic"
+        app:fontStyle="italic"
+        app:fontWeight="400"
+        app:font="@font/merriweather_italic" />
+    
+    <!-- Playfair Display Regular -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/playfair_display_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/playfair_display_regular" />
+    
+    <!-- Playfair Display Bold -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/playfair_display_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/playfair_display_bold" />
+</font-family> 

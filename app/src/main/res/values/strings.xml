@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YOpin</string>
+    
+    <!-- Общие строки -->
+    <string name="app_slogan">Ваше мнение о каждой прочитанной книге</string>
+    <string name="app_loading">Загрузка...</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_confirm">Подтвердить</string>
+    
+    <!-- Аутентификация -->
+    <string name="login">Вход</string>
+    <string name="login_slogan">Войдите, чтобы делиться своими литературными открытиями</string>
+    <string name="register">Регистрация</string>
+    <string name="register_slogan">Начните ваше литературное путешествие с нами</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="full_name">Полное имя</string>
+    <string name="no_account">Еще нет аккаунта? Зарегистрируйтесь</string>
+    <string name="already_registered">Уже зарегистрированы? Войдите</string>
+    <string name="logout">Выйти</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    
+    <!-- Книги -->
+    <string name="books">Книги</string>
+    <string name="book_title">Название книги</string>
+    <string name="book_author">Автор</string>
+    <string name="book_genre">Жанр</string>
+    <string name="book_year">Год издания</string>
+    <string name="book_details">Информация о книге</string>
+    <string name="book_icon">Иконка книги</string>
+    <string name="author_icon">Иконка автора</string>
+    <string name="add_book">Добавить книгу</string>
+    <string name="edit_book">Редактировать книгу</string>
+    <string name="no_books">Нет добавленных книг</string>
+    <string name="genre_prefix">Жанр: </string>
+    <string name="year_prefix">Год: </string>
+    
+    <!-- Отзывы -->
+    <string name="reviews">Отзывы</string>
+    <string name="review_text">Ваше мнение о книге</string>
+    <string name="add_review">Написать отзыв</string>
+    <string name="edit_review">Редактировать отзыв</string>
+    <string name="your_review">Ваш отзыв</string>
+    <string name="review_date">Дата отзыва</string>
+    <string name="your_rating">Ваша оценка</string>
+    <string name="no_reviews">Нет отзывов на эту книгу</string>
+    <string name="no_user_reviews">У вас пока нет отзывов</string>
+    <string name="my_reviews">Мои отзывы</string>
+    <string name="already_reviewed">Вы уже написали отзыв</string>
+    
+    <!-- Профиль -->
+    <string name="profile">Профиль</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="review_count">Количество отзывов</string>
+    <string name="member_since">Участник с</string>
+    
+    <!-- Сообщения -->
+    <string name="msg_login_success">Вход выполнен успешно</string>
+    <string name="msg_register_success">Регистрация выполнена успешно</string>
+    <string name="msg_logout_success">Вы вышли из приложения</string>
+    <string name="msg_book_saved">Книга сохранена</string>
+    <string name="msg_review_saved">Отзыв сохранен</string>
+    <string name="msg_review_updated">Отзыв обновлен</string>
+    <string name="msg_field_required">Пожалуйста, заполните это поле</string>
+    <string name="msg_passwords_not_match">Пароли не совпадают</string>
+    <string name="msg_error">Произошла ошибка</string>
+    <string name="msg_fill_all_fields">Пожалуйста, заполните все поля</string>
+    <string name="msg_wrong_credentials">Неверный email или пароль</string>
+    
+    <!-- Подсказки -->
+    <string name="hint_min_chars">Минимум 3 символа</string>
+    <string name="hint_write_review">Поделитесь вашими мыслями о книге…</string>
+    <string name="hint_search">Поиск книг или авторов</string>
+    
+    <!-- Количество отзывов (plurals) -->
+    <plurals name="review_count">
+        <item quantity="one">%d отзыв</item>
+        <item quantity="few">%d отзыва</item>
+        <item quantity="many">%d отзывов</item>
+        <item quantity="other">%d отзывов</item>
+    </plurals>
+</resources>

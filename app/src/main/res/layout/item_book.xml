@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardBackgroundColor="@color/surface"
+    app:cardElevation="8dp"
+    app:strokeWidth="1.5dp"
+    app:strokeColor="@color/accent_light"
+    android:clickable="true"
+    android:focusable="true"
+    app:rippleColor="@color/accent_light">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivBookIcon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/quill_pen_icon"
+            android:background="@color/primary"
+            android:padding="14dp"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.App.CircleImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/surface" />
+
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:fontFamily="@font/playfair_display_bold"
+            android:textColor="@color/primary"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivBookIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Преступление и наказание" />
+
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/merriweather"
+            android:textColor="@color/text_secondary"
+            android:textSize="20sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivBookIcon"
+            app:layout_constraintTop_toBottomOf="@+id/tvBookTitle"
+            tools:text="Федор Достоевский" />
+
+        <LinearLayout
+            android:id="@+id/chipContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivBookIcon"
+            app:layout_constraintTop_toBottomOf="@+id/tvBookAuthor">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/tvBookGenre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/merriweather_italic"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                app:chipBackgroundColor="@color/accent_cream"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                tools:text="Классика" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/tvBookYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/merriweather_italic"
+                android:textColor="@color/primary"
+                android:textSize="16sp"
+                app:chipBackgroundColor="@color/accent_cream"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                tools:text="1866" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/accent_light"
+            app:layout_constraintTop_toBottomOf="@+id/chipContainer" />
+
+        <LinearLayout
+            android:id="@+id/ratingContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toBottomOf="@+id/divider">
+
+            <RatingBar
+                android:id="@+id/ratingBarBook"
+                style="@style/BookCardRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize="0.5"
+                tools:rating="4.5" />
+
+            <TextView
+                android:id="@+id/tvRatingValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:textColor="@color/accent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="4.5" />
+
+            <TextView
+                android:id="@+id/tvReviewCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/merriweather"
+                android:textColor="@color/text_secondary"
+                android:textSize="16sp"
+                tools:text="(42 отзыва)" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

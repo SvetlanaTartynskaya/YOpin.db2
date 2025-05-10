@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Базовый фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_beige" />
+        </shape>
+    </item>
+    
+    <!-- Упрощенный узор вместо сложного паттерна -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_beige" />
+            <stroke 
+                android:width="0.5dp" 
+                android:color="@color/accent_light" 
+                android:dashWidth="1dp"
+                android:dashGap="15dp" />
+        </shape>
+    </item>
+    
+    <!-- Легкий виньетный эффект -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="500dp"
+                android:startColor="#00000000"
+                android:endColor="#10072807"
+                android:centerX="0.5"
+                android:centerY="0.5" />
+        </shape>
+    </item>
+</layer-list> 

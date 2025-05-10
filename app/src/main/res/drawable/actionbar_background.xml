@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основной фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="90"
+                android:startColor="@color/gradient_start"
+                android:centerColor="@color/gradient_center"
+                android:endColor="@color/gradient_end" />
+        </shape>
+    </item>
+    <!-- Декоративная полоса внизу -->
+    <item android:bottom="0dp" android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <size android:height="3dp" />
+            <solid android:color="@color/accent_gold" />
+        </shape>
+    </item>
+    <!-- Точечный узор -->
+    <item>
+        <bitmap 
+            android:src="@drawable/book_pattern"
+            android:tileMode="repeat"
+            android:alpha="0.05" />
+    </item>
+</layer-list> 

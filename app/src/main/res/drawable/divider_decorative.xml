@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основная линия разделителя -->
+    <item android:gravity="center_vertical">
+        <shape android:shape="rectangle">
+            <size android:height="1dp" />
+            <solid android:color="@color/accent" />
+        </shape>
+    </item>
+    
+    <!-- Центральное перо -->
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/quill_pen_icon"
+            android:tint="@color/accent" 
+            android:gravity="center"
+            android:width="24dp"
+            android:height="24dp" />
+    </item>
+    
+    <!-- Декоративные точки -->
+    <item android:gravity="center_vertical|start" android:start="48dp">
+        <shape android:shape="oval">
+            <size android:width="4dp" android:height="4dp" />
+            <solid android:color="@color/accent" />
+        </shape>
+    </item>
+    
+    <item android:gravity="center_vertical|start" android:start="68dp">
+        <shape android:shape="oval">
+            <size android:width="4dp" android:height="4dp" />
+            <solid android:color="@color/accent" />
+        </shape>
+    </item>
+    
+    <item android:gravity="center_vertical|end" android:end="48dp">
+        <shape android:shape="oval">
+            <size android:width="4dp" android:height="4dp" />
+            <solid android:color="@color/accent" />
+        </shape>
+    </item>
+    
+    <item android:gravity="center_vertical|end" android:end="68dp">
+        <shape android:shape="oval">
+            <size android:width="4dp" android:height="4dp" />
+            <solid android:color="@color/accent" />
+        </shape>
+    </item>
+</layer-list> 

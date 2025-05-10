@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовые цвета Material Design -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Основная цветовая палитра приложения -->
+    <color name="primary">#0D3D1D</color>      <!-- Темно-зеленый (основной) - сделан темнее -->
+    <color name="primary_dark">#092714</color>  <!-- Темно-зеленый (темнее) - сделан темнее -->
+    <color name="primary_light">#2E6D3B</color> <!-- Темно-зеленый (светлее) - сделан контрастнее -->
+    <color name="dark_green">#0D3D1D</color>    <!-- Темно-зеленый (для обратной совместимости) -->
+    <color name="dark_green_variant">#092714</color> <!-- Вариант темно-зеленого -->
+    <color name="light_green">#3C9F40</color>   <!-- Светло-зеленый - сделан контрастнее -->
+    
+    <color name="accent">#E5A55F</color>        <!-- Бежево-золотистый (акцент) - сделан насыщеннее -->
+    <color name="accent_light">#F0C68F</color>  <!-- Светлый бежевый - сделан контрастнее -->
+    <color name="accent_dark">#C27C45</color>   <!-- Темный бежевый - сделан контрастнее -->
+    <color name="accent_gold">#C49B2C</color>   <!-- Золотистый акцент - сделан контрастнее -->
+    <color name="accent_cream">#FFF0D0</color>  <!-- Кремовый акцент -->
+    <color name="accent_leaf">#6B9B80</color>   <!-- Акцент цвета листа - сделан контрастнее -->
+    <color name="accent_wood">#7C3605</color>   <!-- Акцент древесного цвета - сделан контрастнее -->
+    
+    <color name="background">#FFF5D6</color>    <!-- Очень светлый бежевый (фон) - сделан теплее -->
+    <color name="background_beige">#F5E8D0</color> <!-- Бежевый фон - сделан контрастнее -->
+    <color name="surface">#FFFCF0</color>       <!-- Кремово-белый (поверхности) - сделан теплее -->
+    
+    <!-- Текстовые цвета -->
+    <color name="text_primary">#121212</color>  <!-- Основной текст - сделан темнее -->
+    <color name="text_secondary">#555555</color><!-- Вторичный текст - сделан темнее для контраста -->
+    <color name="text_on_primary">#FFFFFF</color><!-- Текст на темно-зеленом фоне -->
+    <color name="text_on_accent">#3B2400</color><!-- Текст на бежевом фоне - сделан темнее -->
+    <color name="text_dark">#222222</color>     <!-- Темный текст - сделан темнее -->
+    
+    <!-- Функциональные цвета -->
+    <color name="success">#1E6D22</color>       <!-- Зеленый (успех) - сделан контрастнее -->
+    <color name="error">#A70C0C</color>         <!-- Красный (ошибка) - сделан контрастнее -->
+    <color name="warning">#E56F07</color>       <!-- Оранжевый (предупреждение) - сделан контрастнее -->
+    <color name="info">#0278C1</color>          <!-- Синий (информация) - сделан контрастнее -->
+    
+    <!-- Градиенты -->
+    <color name="gradient_start">#0D3D1D</color><!-- Начало градиента - сделан темнее -->
+    <color name="gradient_center">#144F25</color><!-- Центр градиента - сделан контрастнее -->
+    <color name="gradient_end">#1E6D22</color>  <!-- Конец градиента - сделан контрастнее -->
+    
+    <!-- Состояния кнопок -->
+    <color name="btn_disabled">#ADADAD</color>  <!-- Отключенная кнопка - сделан темнее -->
+    <color name="disabled_gray">#8E8E8E</color> <!-- Серый (отключенный) - сделан темнее -->
+    
+    <!-- Звездный рейтинг -->
+    <color name="rating_empty">#C2C2C2</color>  <!-- Пустая звезда - сделан темнее -->
+    <color name="rating_filled">#E5A55F</color> <!-- Заполненная звезда - сделан насыщеннее -->
+    <color name="rating_active">#FFA726</color> <!-- Активная звезда - сделан насыщеннее -->
+    
+    <!-- Обратная совместимость с предыдущими цветами -->
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="colorAccent">@color/accent</color>
+    <color name="colorBackground">@color/background</color>
+</resources>

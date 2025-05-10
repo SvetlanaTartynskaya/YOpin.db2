@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Базовый фон -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background_beige" />
+        </shape>
+    </item>
+    
+    <!-- Декоративные элементы -->
+    <item android:right="-250dp" android:top="-250dp">
+        <shape android:shape="oval">
+            <solid android:color="#08000000" />
+            <size android:width="500dp" android:height="500dp" />
+        </shape>
+    </item>
+    
+    <item android:left="-200dp" android:bottom="-200dp">
+        <shape android:shape="oval">
+            <solid android:color="#05000000" />
+            <size android:width="400dp" android:height="400dp" />
+        </shape>
+    </item>
+    
+    <!-- Тонкие линии (используем drawable напрямую вместо bitmap) -->
+    <item android:drawable="@drawable/subtle_pattern" android:alpha="0.05" />
+</layer-list> 
